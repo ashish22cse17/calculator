@@ -1,14 +1,14 @@
 body{
-    font-family: 'Arial', sans-serif;
+    font-family: 'ALGERIAN';
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
     margin: 0;
     background-color: rgba(56, 52, 52, 0.901);
+    background: url('./images/homebg.jpg');
     
 }
-
 h1{
     text-align: center;
 }
@@ -24,7 +24,8 @@ input[type="button"]{
  background-color: rgba(128, 128, 128, 0.447);
 }
 input[type="button"]:hover{
-background-color: rgba(255, 192, 203, 0.738);
+background-color:rgba(0, 0, 0, 0.751);
+color:white;
 }
 input[type="text"], input[type="button"] {
     width: 50px;

@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="./images/icon.png"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
@@ -12,22 +13,22 @@
     <div class="calc">
     <input type="text" id="display" readonly>
     <br>
-    <input type="button" value="7" onclick="appendValue('7')">
-    <input type="button" value="8" onclick="appendValue('8')">
-    <input type="button" value="9" onclick="appendValue('9')">
+    <input type="button" value="7" onclick="Value('7')">
+    <input type="button" value="8" onclick="Value('8')">
+    <input type="button" value="9" onclick="Value('9')">
     <input type="button" value="/" onclick="appendOperator('/')">
     <br>
-    <input type="button" value="4" onclick="appendValue('4')">
-    <input type="button" value="5" onclick="appendValue('5')">
-    <input type="button" value="6" onclick="appendValue('6')">
+    <input type="button" value="4" onclick="Value('4')">
+    <input type="button" value="5" onclick="Value('5')">
+    <input type="button" value="6" onclick="Value('6')">
     <input type="button" value="-" onclick="appendOperator('-')">
     <br>
-    <input type="button" value="1" onclick="appendValue('1')">
-    <input type="button" value="2" onclick="appendValue('2')">
-    <input type="button" value="3" onclick="appendValue('3')">
+    <input type="button" value="1" onclick="Value('1')">
+    <input type="button" value="2" onclick="Value('2')">
+    <input type="button" value="3" onclick="Value('3')">
     <input type="button" value="+" onclick="appendOperator('+')">
     <br>
-    <input type="button" value="0" onclick="appendValue('0')">
+    <input type="button" value="0" onclick="Value('0')">
     <input type="button" value="." onclick="appendDecimal()">
     <input type="button" value="=" onclick="calculate()">
     <input type="button" value="*" onclick="appendOperator('*')">
